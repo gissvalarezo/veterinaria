@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="215.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.FrmLoginController">
+   <children>
+      <Pane layoutY="3.0" prefHeight="209.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" layoutX="4.0" layoutY="7.0" prefHeight="44.0" prefWidth="594.0" text="Acceso del Sistema">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="168.0" fitWidth="147.0" layoutX="43.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="243.0" layoutY="72.0" text="Usuario:" />
+            <Label layoutX="243.0" layoutY="110.0" text="Contrasena:" />
+            <TextField fx:id="txtNombre" layoutX="348.0" layoutY="67.0" />
+            <PasswordField fx:id="txtContrasena" layoutX="348.0" layoutY="105.0" />
+            <Button fx:id="btnAceptar" defaultButton="true" layoutX="239.0" layoutY="163.0" mnemonicParsing="false" onAction="#getAcceso" text="Aceptar" />
+            <Button fx:id="btnSalir" layoutX="348.0" layoutY="163.0" mnemonicParsing="false" onAction="#salir" text="Salir" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

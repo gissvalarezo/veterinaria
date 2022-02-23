@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="getBusqueda" prefHeight="208.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controlador.FrmMenuController">
+   <children>
+      <Button fx:id="btnBusqueda" layoutX="236.0" layoutY="110.0" mnemonicParsing="false" onAction="#getBuscar" text="Busqueda" />
+      <Button fx:id="btnIngresar" layoutX="222.0" layoutY="151.0" mnemonicParsing="false" onAction="#getIngresar" text="Ingresar Heroe" />
+      <Label alignment="CENTER" layoutY="7.0" prefHeight="15.0" prefWidth="591.0" text="Menu del Sistema">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
